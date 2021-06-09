@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:"Helvetica";
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.9);
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    z-index: 5;
+}
+
+.header-logo {
+    float: left;
+    margin: 5px 150px 0 30px;
+}
+
+.header-logo img {
+    height: 60px;
+}
+
+
+.header-list li {
+    float: left;
+    list-style: none;
+    margin-top: -10px;
+    margin-right: 30px;
+    line-height: 60px;
+}
+
+.header-list a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+.header-list a:hover {
+    background-color: red;
+    border-radius: 8px;
+    color:white
+}
+
+.top-wrapper {
+    padding: 350px 0 100px 0;
+    background-image: url("./img/hl-mastertech.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.top-wrapper h3 {
+    font-weight: normal;
+}
+
+.overlay {
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px 0px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.overlay h2 {
+    margin-bottom: 10px;
+    color: rgba(255,255,255,0.9);
+}
+
+.content-wrapper {
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+  
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+  
+.heading h2 {
+    font-weight: normal;
+}
+
+.contents {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    flex: auto;
+    width: 25%;
+    margin-bottom: 50px;
+}
+  
+.content-icon {
+    position: relative;
+    height: 167px;
+}
+  
+.text-heads {
+    width: 100%;
+    color: rgb(29, 29, 29);
+    margin-top: 5px;
+}
+  
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+  
+.btn:hover {
+    opacity: 1;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+    height: 400px;
+}
+
+.message-wrapper h2 {
+    margin-bottom: 5px;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+    
+footer {
+    background: #aeaeae;  
+    padding: 30px;
+}
+
+.footer-logo img {
+    width: 125px;
+}
+  
+footer p {
+    color: #222222;
+    font-size: 12px;
+}
+
+span.menu-icon {
+    display: none;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    
+}
+
+.slides {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slide {
+    width: 500px;
+}
+
+.slide-icon {
+    float: left;
+    width: 250px;
+    
+}
+
+.slide-content {
+    text-align: left;
+}
+
+.slide-heads {
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.slide-contents {
+    font-size: 12px;
+}
